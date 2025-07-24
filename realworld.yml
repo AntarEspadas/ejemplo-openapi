@@ -14,11 +14,17 @@ x-json-schema-faker:
   locale: es_MX
 tags:
   - name: Articles
+    description: Operaciones relacionadas con la consulta, publicación y modificación de artículos
   - name: Comments
+    description: Operaciones relacionadas con comentarios
   - name: Favorites
+    description: Operaciones relacionadas con consulta y actualización de artículos favoritos
   - name: Profile
+    description: Operaciones relacionadas con la consulta y actualización de los perfiles
   - name: Tags
+    description: Operaciones relacionadas con la consulta de etiquetas de artículos
   - name: User and Authentication
+    description: Operaciones relacionadas con usuarios y autenticación
 servers:
   - url: 'https://api.realworld.io/api'
 paths:
