@@ -15,4 +15,4 @@ jobs:
             - name: Instalar Spectral
               run: npm install -g @stoplight/spectral-cli
             - name: Validar con Spectral
-              run: spectral lint realworld.yml
+              run: spectral lint --fail-severity warn realworld.yml
