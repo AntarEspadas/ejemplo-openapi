@@ -464,14 +464,23 @@ components:
       properties:
         email:
           type: string
+          x-faker: internet.email
         token:
           type: string
+          x-faker:
+            random.alphaNumeric:
+              - 20
         username:
           type: string
+          x-faker: name.firstName
         bio:
           type: string
+          x-faker: lorem.paragraph
         image:
           type: string
+          x-faker:
+            fake:
+              - https://i.pravatar.cc/150?img={{datatype.number(70)}}
     UpdateUser:
       type: object
       properties:
