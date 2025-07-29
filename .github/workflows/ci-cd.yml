@@ -28,7 +28,7 @@ jobs:
           - name: Clonar repositorio de api-client
             uses: actions/checkout@v4
             with:
-              repository: git@github.com:AntarEspadas/openapi-generator-ts-test.git
+              repository: AntarEspadas/openapi-generator-ts-test
               ref: master
               path: ./api-client
               ssh-key: ${{ secrets.SSH_KEY }}
