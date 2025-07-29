@@ -41,6 +41,7 @@ jobs:
             working-directory: ./api-client
           - name: Crear y subir commit
             run: |
+              git add .
               git commit -m "Actualizar especificación de OpenAPI"
               git push
             working-directory: ./api-client
