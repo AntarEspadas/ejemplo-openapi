@@ -8,13 +8,12 @@ info:
   license:
     name: MIT License
     url: 'https://opensource.org/licenses/MIT'
-  version: 1.0.3
-
+  version: 1.1.0
 x-json-schema-faker:
   locale: es_MX
 tags:
   - name: Articles
-    description: Operaciones relacionadas con la consulta, publicación y modificación de artículos
+    description: 'Operaciones relacionadas con la consulta, publicación y modificación de artículos'
   - name: Comments
     description: Operaciones relacionadas con comentarios
   - name: Favorites
@@ -502,7 +501,7 @@ components:
           type: string
           x-faker:
             fake:
-              - https://i.pravatar.cc/150?img={{datatype.number(70)}}
+              - 'https://i.pravatar.cc/150?img={{datatype.number(70)}}'
         following:
           type: boolean
     Article:
@@ -898,4 +897,3 @@ components:
             
       name: Authorization
       in: header
-
